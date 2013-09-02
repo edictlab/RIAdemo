@@ -63,10 +63,10 @@ The application's web interface is accessible at the port 8080. If you run the d
 ## Architecture of the demo application
 
 The source code of the demo is located in the following files:
-- `start-app.rb` - loades all required libraries and starts the Web application.
+- `start-app.rb` - loads all required libraries and starts the Web application.
 - `demo-app-ui.rb` - application logic and user interface.
 - `data-model.rb` - the DataMapper model for accessing the database.
 - `data-init.rb` - initial data that is inserted into the database.
 - `test.db` - Sqlite database.
-- the rest are the files for the middleware implementation.
+- `lib (directory)` - implementation of the middleware.
 
