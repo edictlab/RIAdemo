@@ -14,15 +14,16 @@ The demo application stores the data into a Sqlite database utilizing the DataMa
 ### Installation of Sqlite adapter
   For Debian / Ubuntu, run the command in the command prompt:
 
-  `sudo apt-get install libsqlite3-dev`
+  `$ sudo apt-get install libsqlite3-dev`
 
   For RedHat / Fedora, run the following command:
-  `sudo yum install sqlite-devel`
+  `$ sudo yum install sqlite-devel`
 
 For other Linux distributions run the equivalent command that will install required drivers. The same applies for any version of the Windows operating system.
 
 Now install the Sqlite3 adapter Ruby gem:
-`jruby -S gem install dm-sqlite-adapter`
+
+`$ jruby -S gem install dm-sqlite-adapter`
 
 This command will download and install several Ruby gems.
 
