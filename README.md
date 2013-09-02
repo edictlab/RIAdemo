@@ -50,4 +50,4 @@ We start the application by running the `start-app.rb` Ruby script. This script 
 
   `$ jruby start-app.rb`
 
-The application's web interface is accessible at the port 8080. If you run the demo application on the local computer, (http://localhost:8080)[http://localhost:8080] in a web browser open the address.
+The application's web interface is accessible at the port 8080. If you run the demo application on the local computer, [http://localhost:8080](http://localhost:8080) in a web browser open the address.
