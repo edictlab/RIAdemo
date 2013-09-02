@@ -24,24 +24,25 @@ For other Linux distributions run the equivalent command that will install requi
 
 If you want to run the application on the Windows operating system, install the appropriate drivers for accessing a Sqlite database.
 
-Now install the Sqlite3 adapter Ruby gem:
+Now install the Sqlite adapter Ruby gem:
 
 `$ jruby -S gem install dm-sqlite-adapter`
 
 This command will download and install several Ruby gems.
 
 ### Installation of DataMapper
-When we have Sqlite3 adapter installed we now install the DataMapper gem and its dependancies:
-      `$ jruby -S gem install datamapper
+When we have Sqlite adapter installed, we now install the DataMapper gem and its dependancies:
+
+      `$ jruby -S gem install datamapper`
 
 
 
 ## Clone the Git project
-In order to download the demo application we need to issue the `git clone` command.
+In order to download the demo application we need to issue the appropriate `git clone` command.
 
-  `$ git clone git://github.com/ectlab/RIAdemo.git`
+  `$ git clone git://github.com/edictlab/RIAdemo.git`
 
-The command will create  `RIAdemo` directory and download an entire source code required for running the demo application.
+The command will create the `RIAdemo` directory and download an entire source code required for running the demo application.
 
 # Run the application
 
@@ -49,4 +50,4 @@ We start the application by running the `start-app.rb` Ruby script. This script 
 
   `$ jruby start-app.rb`
 
-
+The application's web interface is accessible at the port 8080. If you run the demo application on the local computer, (http://localhost:8080)[http://localhost:8080] in a web browser open the address.
