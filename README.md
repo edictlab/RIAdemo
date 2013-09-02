@@ -2,7 +2,7 @@
 
 This is a demo application utilizing the prototype of the middleware for the development of Rich Internet Applications (RIA) in the Ruby programming language. It is implemented in JRuby and is based on Vaadin, a Java framework for the RIA development. Data access is performed utilizing the DataMapper object-relational mapper that is adapted in order to be used as a Vaadin container for data binding with the Vaadin user interface components.
 
-The application can run on any operating system with that supports the Java Virtual Machine.
+The application can run on any operating system that supports the Java Virtual Machine.
 
 ## Tutorial for running the demo application
 
