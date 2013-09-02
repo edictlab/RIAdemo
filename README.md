@@ -38,6 +38,11 @@ When we have Sqlite adapter installed, we now install the DataMapper gem and its
 
 
 ## Clone the Git project
+
+Install `git` if you haven't done it already. Issue the following command for Ubuntu or similar for other operating system:
+
+      $ sudo apt-get install git
+
 In order to download the demo application we need to issue the appropriate `git clone` command.
 
       $ git clone git://github.com/edictlab/RIAdemo.git
