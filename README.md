@@ -1,8 +1,8 @@
-# RIA development in Ruby - Prototype
+# RIA development in Ruby - The Middleware Prototype
 
-This is a demo application for the development of Rich Internet Applications (RIA) in the Ruby programming language. It is implemented in JRuby utilizing Vaadin, a Java framework for the RIA development.
+This is a demo application utilizing the prototype of the middleware for the development of Rich Internet Applications (RIA) in the Ruby programming language. It is implemented in JRuby and is based on Vaadin, a Java framework for the RIA development. Data access is performed utilizing the DataMapper object-relational mapper that is adapted in order to be used as a Vaadin container for data binding with the Vaadin user interface components.
 
-The application can run on any operating system with Java Virtual Machine installed.
+The application can run on any operating system with that supports the Java Virtual Machine.
 
 ## Tutorial for running the demo application
 
@@ -44,10 +44,24 @@ In order to download the demo application we need to issue the appropriate `git 
 
 The command will create the `RIAdemo` directory and download an entire source code required for running the demo application.
 
-# Run the application
+# The demo application
+
+## Running the application
 
 We start the application by running the `start-app.rb` Ruby script. This script loads all other required files and libraries, and starts the Jetty application server.
 
   `$ jruby start-app.rb`
 
 The application's web interface is accessible at the port 8080. If you run the demo application on the local computer, open the address [http://localhost:8080](http://localhost:8080) in a web browser.
+
+
+## Architecture of the demo application
+
+The source code of the demo is located in the following files:
+- `start-app.rb` - loades all required libraries and starts the Web application.
+- `demo-app-ui.rb` - application logic and user interface.
+- `data-model.rb` - the DataMapper model for accessing the database.
+- `data-init.rb` - initial data that is inserted into the database.
+- `test.db` - Sqlite database.
+- the rest are the files for the middleware implementation.
+
