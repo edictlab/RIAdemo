@@ -37,7 +37,7 @@ When we have Sqlite adapter installed, we now install the DataMapper gem and its
 
 
 
-## Clone the Git project
+### Clone the Git project
 
 Install `git` if you haven't done it already. Issue the following command for Ubuntu or similar for other operating system:
 
@@ -49,9 +49,8 @@ In order to download the demo application we need to issue the appropriate `git 
 
 The command will create the `RIAdemo` directory and download an entire source code required for running the demo application.
 
-# The demo application
 
-## Running the application
+### Running the application
 
 We start the application by running the `start-app.rb` Ruby script. This script loads all other required files and libraries, and starts the Jetty application server.
 
@@ -60,7 +59,7 @@ We start the application by running the `start-app.rb` Ruby script. This script 
 The application's web interface is accessible at the port 8080. If you run the demo application on the local computer, open the address [http://localhost:8080](http://localhost:8080) in a web browser.
 
 
-## Architecture of the demo application
+### Architecture of the demo application
 
 The source code of the demo is located in the following files:
 - `start-app.rb` - loads all required libraries and starts the Web application.
