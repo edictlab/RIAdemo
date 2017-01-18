@@ -24,18 +24,34 @@ For other Linux distributions run the equivalent command that will install requi
 
 If you want to run the application on the Windows operating system, install the appropriate drivers for accessing a Sqlite database.
 
+### Installation of DataMapper
+
+#### Manual installation
+
+When we have Sqlite adapter installed, we now install the DataMapper gem and its dependancies:
+
+      $ jruby -S gem install datamapper --no-ri --no-rdoc
+
+Now install the following two Ruby gems:
+
+      $ jruby -S gem install jdbc-sqlite3 -v "3.7.2.1" --no-ri --no-rdoc
 Now install the Sqlite adapter Ruby gem:
 
-      $ jruby -S gem install dm-sqlite-adapter
+      $ jruby -S gem install dm-sqlite-adapter --no-ri --no-rdoc
 
 This command will download and install several Ruby gems.
 
-### Installation of DataMapper
-When we have Sqlite adapter installed, we now install the DataMapper gem and its dependancies:
+#### Installation using Bundler 
 
-      $ jruby -S gem install datamapper
+The required gems can be installed using bundler Ruby gem. First, install bundler gem:
 
+      $ jruby -S gem install bundler --no-ri --no-rdoc
 
+Then type the following command:
+
+      $ jruby -S bundle update
+
+All required gems should be installed.
 
 ### Clone the Git project
 
