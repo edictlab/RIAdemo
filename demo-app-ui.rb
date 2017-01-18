@@ -1,4 +1,3 @@
-
 include JRubyVaadin::UiEvents
 include JRubyVaadin
 include JRubyVaadin::UI

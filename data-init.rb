@@ -44,3 +44,4 @@ Person.create(:first_name=>"Marie",
               :last_name=>"Curie", 
               :science => "Phisics", 
               :year_of_birth => 1867)
+

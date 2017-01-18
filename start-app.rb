@@ -4,9 +4,9 @@ require './lib/jrubyvaadin'
 require './lib/rb-vaadin-events'
 require './lib/dm-vaadin'
 
-require 'data-model'
-require 'data-init'
+require_relative 'data-model'
+require_relative 'data-init'
 
-require 'demo-app-ui'
+require_relative 'demo-app-ui'
 
 JRubyVaadin.start_app(ExampleApp)

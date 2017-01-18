@@ -1,6 +1,9 @@
 require 'dm-migrations'
 require 'dm-validations'
 
+DataMapper::Logger.new($stdout, :debug)
+DataMapper.setup(:default,"sqlite://#{Dir.pwd}/scientists.db") 
+
 class Person 
   include DataMapper::Resource
   property :id,             Serial
@@ -10,9 +13,5 @@ class Person
   property :year_of_birth,  Integer
 end
 
-
-
-DataMapper::Logger.new($stdout, :debug)
-DataMapper.setup(:default,"sqlite:./test.db") 
 DataMapper.finalize
 
