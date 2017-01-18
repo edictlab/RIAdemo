@@ -11,7 +11,8 @@ Install JRuby from the [JRuby site](http://jruby.org) by downloading the appropr
 
 The demo application stores the data into a Sqlite database utilizing the DataMapper object-relational mapper. Hence, we have to install Sqlite adapter and the DataMapper gem.
 
-### Installation of Sqlite adapter
+### Installation of Sqlite 
+
   For Debian / Ubuntu, run the following command in the command line:
 
       $ sudo apt-get install libsqlite3-dev
@@ -28,14 +29,15 @@ If you want to run the application on the Windows operating system, install the 
 
 #### Manual installation
 
-When we have Sqlite adapter installed, we now install the DataMapper gem and its dependancies:
+When we have Sqlite drivers installed, we now install DataMapper gem and its dependencies:
 
       $ jruby -S gem install datamapper --no-ri --no-rdoc
 
 Now install the following two Ruby gems:
 
       $ jruby -S gem install jdbc-sqlite3 -v "3.7.2.1" --no-ri --no-rdoc
-Now install the Sqlite adapter Ruby gem:
+
+Now install Sqlite adapter Ruby gem:
 
       $ jruby -S gem install dm-sqlite-adapter --no-ri --no-rdoc
 
